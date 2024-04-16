@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deposit and withdraw</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar1">
+        <div class="img">
+            <img src="./image/logo.jpg" alt="">
+        </div>
+        <div class="icon">
+        <i class="fa-solid fa-calendar-minus" onclick="func()"></i>
+    </div>
+        <ul id="toggle">
+            <li><a href="/index.html" onclick="func()">Home</a></li>
+            <li><a href="#login1" onclick="func()">Login</a></li>
+            <li><a href="/contactus.html" onclick="func()">contact us</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="heading">Account management</h2>
+            <label for="Accno">Enter your Account no:</label>
+            <input type="number" name="" id="Accno">
+            <label for="Amount">Enter the Amount</label>
+            <input type="number" name="" id="Amount">
+            <div id="error"></div>
+            <div class="btn">
+                <button id="deposite" onclick="deposite1()" type="submit">Deposite</button>
+                <button id="Withdraw" onclick="withdraw()">Withdraw</button>
+                <button id="logout" type="submit" onclick="logout()">logout</button>
+
+            </div>
+            <div class="balance">
+                balance:&#8377;<span id="balance">0</span>
+            </div>
+        </div>
+</div>
+<footer>
+    <p>Copiright &copy;| kevin prajapati , AK Bank</p>
+</footer>
+
+
+
+
+<script src="navk.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

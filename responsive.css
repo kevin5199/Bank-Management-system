@@ -1,0 +1,152 @@
+@media (max-width:1000px) {
+    .img1 img{
+        width: 400px;
+    }
+}
+
+@media (max-width:965px) {
+    .intro p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:815px){
+    .img1 img{
+        width: 350px;
+    }
+}
+
+@media (max-width:780px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+    }
+    
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    width: 90%;
+    
+}
+    .intro{
+        height: 50%;
+        width: 90%;
+    }
+
+    .intro h1{
+        font-size: 24px;
+    }
+    .img1 img{
+        width: 400px;
+    }
+
+    #login{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:740px){
+    .intro p{
+        font-size: 13px;
+    }
+
+    .intro h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:650px){
+    .intro h1{
+        font-size: 20px;
+    }
+
+    .img1 img{
+        width: 380px;
+    }
+    .intro p{
+        text-align: center;
+    }
+}
+
+@media (max-width:575px){
+    .img1 img{
+        width: 350px;
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+
+    #login{
+        height: 35px;
+    }
+
+    label{
+        font-size: 30px;
+    }
+
+    input[type=text],input[type=password]{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:544px){
+    #login{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:544px){
+    .img1 img{
+        width: 300px;
+    }
+}
+
+@media (max-width:440px){
+    label{
+        font-size: 25px;
+    }
+
+    input[type="number"]{
+        height: 25px;
+        font-size: 25px;
+    }
+    .navbar1 ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(63, 70, 70);
+        gap: 20px;
+        height: auto;
+        z-index: -1;
+        top: -250px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .icon i{
+        display: initial;
+    }
+
+    .navbar1{
+        justify-content: space-evenly;
+
+    }
+    .heading{
+        font-size: 35px;
+    }
+    .balance{
+        font-size: 25px;
+    }
+
+
+}
